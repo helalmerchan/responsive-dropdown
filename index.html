@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grid layout</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="main-header">
+		<div class="container">
+			<div class="flex-col">
+				<h1 class="logo"><a href="https://devmhu.com/"><img src="mylogo-1.png" alt=""></a></h1>
+				<nav class="navbar">
+					<!-- nav-icons -->
+					<button class="toggler">
+						<span class="bars"><span class="middle"></span></span>
+					</button>
+
+					<!-- Main menu -->
+					<ul class="main-menu">
+						<li><a href="#">home</a></li>
+						<li><a href="#">services <span class="caret"></span></a>
+							<ul class="dropdown">
+								<li><a href="#">webdesign</a></li>
+								<li><a href="#">PHP mysql</a></li>
+								<li><a href="#">woocommerce</a></li>
+								<li><a href="#">wordpress <span class="caret"></span></a>
+									<ul class="dropdown">
+										<li><a href="#">Blog</a></li>
+										<li><a href="#">Construction</a></li>
+										<li><a href="#">Travel</a></li>
+										<li><a href="#">Restaurant</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>						
+						<li><a href="#">portfolio</a></li>
+						<li><a href="#">about</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- HERO/SLIDER -->
+	<div class="hero">
+		<div class="v-box">
+			<div class="vam">
+				<h2>WordPress Theme Development</h2>
+				<p>WordPress is not just a simple CMS! It is a widely used web-based software,<br> you can create anything for the web.</p>
+			</div>
+		</div>
+	</div>
+	
+	<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="mycustom.js"></script>
+</body>
+</html>
